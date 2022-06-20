@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;500;600;700;800&display=swap");
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Karla", sans-serif;
+  background-color: #495a71;
+}
+
+section {
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 75%;
+  text-align: left;
+}
+
+#card {
+  background-color: #1f2937;
+  padding-right: 52px;
+  padding-left: 52px;
+  width: 550px;
+  padding-bottom: 46px;
+  margin: 0 auto;
+}
+
+#header {
+  padding-top: 60px;
+  padding-bottom: 35px;
+  border-bottom: 1px solid #2f3e53;
+  margin-bottom: 35px;
+}
+
+.passwords {
+  display: grid;
+  grid-template-columns: 262px 262px;
+  grid-column-gap: 24px;
+  grid-row-gap: 27px;
+  justify-content: center;
+}
+
+.password-box1,
+.password-box2,
+.password-box3,
+.password-box4 {
+  background-color: #273549;
+  text-align: center;
+  border-radius: 6px;
+  height: 50px;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 40px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+span {
+  color: #4adf86;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #d5d4d8;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+#password-txt,
+#password-txt2,
+#password-txt3,
+#password-txt4 {
+  font-size: 16px;
+  color: #55f991;
+  margin: 10px;
+}
+
+#generate-btn {
+  line-height: 24px;
+  font-size: 16px;
+  font-weight: 500px;
+  color: white;
+  padding: 9px 17px 9px 17px;
+  background-color: #10b981;
+  border: none;
+  border-radius: 6px;
+}
+
+#generate-btn:hover {
+  cursor: pointer;
+  background-color: #009061;
+}
